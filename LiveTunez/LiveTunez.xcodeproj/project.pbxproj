@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29438B702C22FD4500DD135A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29438B6F2C22FD4500DD135A /* GoogleService-Info.plist */; };
+		29438B732C2302B400DD135A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B722C2302B400DD135A /* FirebaseAnalytics */; };
+		29438B752C2302B400DD135A /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B742C2302B400DD135A /* FirebaseAnalyticsOnDeviceConversion */; };
+		29438B772C2302B400DD135A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B762C2302B400DD135A /* FirebaseAnalyticsSwift */; };
+		29438B792C2302B400DD135A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B782C2302B400DD135A /* FirebaseAuth */; };
+		29438B7B2C2302B400DD135A /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B7A2C2302B400DD135A /* FirebaseAuthCombine-Community */; };
+		29438B7D2C2302B400DD135A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B7C2C2302B400DD135A /* FirebaseDatabase */; };
+		29438B7F2C2302B400DD135A /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B7E2C2302B400DD135A /* FirebaseDatabaseSwift */; };
+		29438B812C2302B400DD135A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B802C2302B400DD135A /* FirebaseFirestore */; };
+		29438B832C2302B400DD135A /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B822C2302B400DD135A /* FirebaseFirestoreCombine-Community */; };
+		29438B852C2302B400DD135A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B842C2302B400DD135A /* FirebaseFirestoreSwift */; };
+		29438B872C2302B400DD135A /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B862C2302B400DD135A /* FirebaseFunctions */; };
+		29438B892C2302B400DD135A /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B882C2302B400DD135A /* FirebaseFunctionsCombine-Community */; };
+		29438B8B2C2302B400DD135A /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B8A2C2302B400DD135A /* FirebaseInstallations */; };
+		29438B8D2C2302B400DD135A /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B8C2C2302B400DD135A /* FirebaseRemoteConfig */; };
+		29438B8F2C2302B400DD135A /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B8E2C2302B400DD135A /* FirebaseRemoteConfigSwift */; };
+		29438B912C2302B400DD135A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B902C2302B400DD135A /* FirebaseStorage */; };
+		29438B932C2302B400DD135A /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 29438B922C2302B400DD135A /* FirebaseStorageCombine-Community */; };
+		29D11C922C87E47F0080CA27 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D11C912C87E47F0080CA27 /* Config.swift */; };
+		29D11C942C87E5CF0080CA27 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 29D11C932C87E5CF0080CA27 /* .gitignore */; };
+		29F5858B2C01F01A00F177DA /* LiveTunezApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5858A2C01F01A00F177DA /* LiveTunezApp.swift */; };
+		29F5858D2C01F01A00F177DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5858C2C01F01A00F177DA /* ContentView.swift */; };
+		29F5858F2C01F01B00F177DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F5858E2C01F01B00F177DA /* Assets.xcassets */; };
+		29F585922C01F01B00F177DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F585912C01F01B00F177DA /* Preview Assets.xcassets */; };
+		29F5859C2C01F01B00F177DA /* LiveTunezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5859B2C01F01B00F177DA /* LiveTunezTests.swift */; };
+		29F585A62C01F01B00F177DA /* LiveTunezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F585A52C01F01B00F177DA /* LiveTunezUITests.swift */; };
+		29F585A82C01F01B00F177DA /* LiveTunezUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F585A72C01F01B00F177DA /* LiveTunezUITestsLaunchTests.swift */; };
+		29F585B52C01F03D00F177DA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F585B42C01F03D00F177DA /* LocationManager.swift */; };
+		29F585B72C01F76B00F177DA /* SavedConcerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F585B62C01F76B00F177DA /* SavedConcerts.swift */; };
+		29F585B92C01F80F00F177DA /* ConcertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F585B82C01F80F00F177DA /* ConcertViewModel.swift */; };
+		29F585BB2C01F83800F177DA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F585BA2C01F83800F177DA /* SearchView.swift */; };
+		29F585BD2C01F85200F177DA /* SetlistPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F585BC2C01F85200F177DA /* SetlistPage.swift */; };
+		29F585C52C01FA4B00F177DA /* ConcertsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F585C42C01FA4B00F177DA /* ConcertsManager.swift */; };
+		29F585CA2C08FD4D00F177DA /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F585C92C08FD4D00F177DA /* SpotifyManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29F585982C01F01B00F177DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29F5857F2C01F01A00F177DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F585862C01F01A00F177DA;
+			remoteInfo = LiveTunez;
+		};
+		29F585A22C01F01B00F177DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29F5857F2C01F01A00F177DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F585862C01F01A00F177DA;
+			remoteInfo = LiveTunez;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29438B6F2C22FD4500DD135A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29D11C912C87E47F0080CA27 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		29D11C932C87E5CF0080CA27 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		29EB54B32C77F264002D6F77 /* LiveTunez.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LiveTunez.entitlements; sourceTree = "<group>"; };
+		29F585872C01F01A00F177DA /* LiveTunez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveTunez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F5858A2C01F01A00F177DA /* LiveTunezApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTunezApp.swift; sourceTree = "<group>"; };
+		29F5858C2C01F01A00F177DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29F5858E2C01F01B00F177DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29F585912C01F01B00F177DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29F585972C01F01B00F177DA /* LiveTunezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveTunezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F5859B2C01F01B00F177DA /* LiveTunezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTunezTests.swift; sourceTree = "<group>"; };
+		29F585A12C01F01B00F177DA /* LiveTunezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveTunezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F585A52C01F01B00F177DA /* LiveTunezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTunezUITests.swift; sourceTree = "<group>"; };
+		29F585A72C01F01B00F177DA /* LiveTunezUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTunezUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29F585B42C01F03D00F177DA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		29F585B62C01F76B00F177DA /* SavedConcerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedConcerts.swift; sourceTree = "<group>"; };
+		29F585B82C01F80F00F177DA /* ConcertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertViewModel.swift; sourceTree = "<group>"; };
+		29F585BA2C01F83800F177DA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		29F585BC2C01F85200F177DA /* SetlistPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistPage.swift; sourceTree = "<group>"; };
+		29F585C42C01FA4B00F177DA /* ConcertsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertsManager.swift; sourceTree = "<group>"; };
+		29F585C82C0208E200F177DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		29F585C92C08FD4D00F177DA /* SpotifyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F585842C01F01A00F177DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29438B7F2C2302B400DD135A /* FirebaseDatabaseSwift in Frameworks */,
+				29438B7D2C2302B400DD135A /* FirebaseDatabase in Frameworks */,
+				29438B8B2C2302B400DD135A /* FirebaseInstallations in Frameworks */,
+				29438B8D2C2302B400DD135A /* FirebaseRemoteConfig in Frameworks */,
+				29438B772C2302B400DD135A /* FirebaseAnalyticsSwift in Frameworks */,
+				29438B912C2302B400DD135A /* FirebaseStorage in Frameworks */,
+				29438B932C2302B400DD135A /* FirebaseStorageCombine-Community in Frameworks */,
+				29438B832C2302B400DD135A /* FirebaseFirestoreCombine-Community in Frameworks */,
+				29438B732C2302B400DD135A /* FirebaseAnalytics in Frameworks */,
+				29438B852C2302B400DD135A /* FirebaseFirestoreSwift in Frameworks */,
+				29438B752C2302B400DD135A /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				29438B812C2302B400DD135A /* FirebaseFirestore in Frameworks */,
+				29438B792C2302B400DD135A /* FirebaseAuth in Frameworks */,
+				29438B872C2302B400DD135A /* FirebaseFunctions in Frameworks */,
+				29438B8F2C2302B400DD135A /* FirebaseRemoteConfigSwift in Frameworks */,
+				29438B7B2C2302B400DD135A /* FirebaseAuthCombine-Community in Frameworks */,
+				29438B892C2302B400DD135A /* FirebaseFunctionsCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F585942C01F01B00F177DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F5859E2C01F01B00F177DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29F5857E2C01F01A00F177DA = {
+			isa = PBXGroup;
+			children = (
+				29D11C932C87E5CF0080CA27 /* .gitignore */,
+				29F585892C01F01A00F177DA /* LiveTunez */,
+				29F5859A2C01F01B00F177DA /* LiveTunezTests */,
+				29F585A42C01F01B00F177DA /* LiveTunezUITests */,
+				29F585882C01F01A00F177DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29F585882C01F01A00F177DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F585872C01F01A00F177DA /* LiveTunez.app */,
+				29F585972C01F01B00F177DA /* LiveTunezTests.xctest */,
+				29F585A12C01F01B00F177DA /* LiveTunezUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F585892C01F01A00F177DA /* LiveTunez */ = {
+			isa = PBXGroup;
+			children = (
+				29EB54B32C77F264002D6F77 /* LiveTunez.entitlements */,
+				29F585C82C0208E200F177DA /* Info.plist */,
+				29F5858A2C01F01A00F177DA /* LiveTunezApp.swift */,
+				29F585B42C01F03D00F177DA /* LocationManager.swift */,
+				29F585B62C01F76B00F177DA /* SavedConcerts.swift */,
+				29F585B82C01F80F00F177DA /* ConcertViewModel.swift */,
+				29F585BA2C01F83800F177DA /* SearchView.swift */,
+				29F585BC2C01F85200F177DA /* SetlistPage.swift */,
+				29F585C92C08FD4D00F177DA /* SpotifyManager.swift */,
+				29D11C912C87E47F0080CA27 /* Config.swift */,
+				29F5858C2C01F01A00F177DA /* ContentView.swift */,
+				29F585C42C01FA4B00F177DA /* ConcertsManager.swift */,
+				29438B6F2C22FD4500DD135A /* GoogleService-Info.plist */,
+				29F5858E2C01F01B00F177DA /* Assets.xcassets */,
+				29F585902C01F01B00F177DA /* Preview Content */,
+			);
+			path = LiveTunez;
+			sourceTree = "<group>";
+		};
+		29F585902C01F01B00F177DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29F585912C01F01B00F177DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29F5859A2C01F01B00F177DA /* LiveTunezTests */ = {
+			isa = PBXGroup;
+			children = (
+				29F5859B2C01F01B00F177DA /* LiveTunezTests.swift */,
+			);
+			path = LiveTunezTests;
+			sourceTree = "<group>";
+		};
+		29F585A42C01F01B00F177DA /* LiveTunezUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29F585A52C01F01B00F177DA /* LiveTunezUITests.swift */,
+				29F585A72C01F01B00F177DA /* LiveTunezUITestsLaunchTests.swift */,
+			);
+			path = LiveTunezUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29F585862C01F01A00F177DA /* LiveTunez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F585AB2C01F01B00F177DA /* Build configuration list for PBXNativeTarget "LiveTunez" */;
+			buildPhases = (
+				29F585832C01F01A00F177DA /* Sources */,
+				29F585842C01F01A00F177DA /* Frameworks */,
+				29F585852C01F01A00F177DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveTunez;
+			packageProductDependencies = (
+				29438B722C2302B400DD135A /* FirebaseAnalytics */,
+				29438B742C2302B400DD135A /* FirebaseAnalyticsOnDeviceConversion */,
+				29438B762C2302B400DD135A /* FirebaseAnalyticsSwift */,
+				29438B782C2302B400DD135A /* FirebaseAuth */,
+				29438B7A2C2302B400DD135A /* FirebaseAuthCombine-Community */,
+				29438B7C2C2302B400DD135A /* FirebaseDatabase */,
+				29438B7E2C2302B400DD135A /* FirebaseDatabaseSwift */,
+				29438B802C2302B400DD135A /* FirebaseFirestore */,
+				29438B822C2302B400DD135A /* FirebaseFirestoreCombine-Community */,
+				29438B842C2302B400DD135A /* FirebaseFirestoreSwift */,
+				29438B862C2302B400DD135A /* FirebaseFunctions */,
+				29438B882C2302B400DD135A /* FirebaseFunctionsCombine-Community */,
+				29438B8A2C2302B400DD135A /* FirebaseInstallations */,
+				29438B8C2C2302B400DD135A /* FirebaseRemoteConfig */,
+				29438B8E2C2302B400DD135A /* FirebaseRemoteConfigSwift */,
+				29438B902C2302B400DD135A /* FirebaseStorage */,
+				29438B922C2302B400DD135A /* FirebaseStorageCombine-Community */,
+			);
+			productName = LiveTunez;
+			productReference = 29F585872C01F01A00F177DA /* LiveTunez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29F585962C01F01B00F177DA /* LiveTunezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F585AE2C01F01B00F177DA /* Build configuration list for PBXNativeTarget "LiveTunezTests" */;
+			buildPhases = (
+				29F585932C01F01B00F177DA /* Sources */,
+				29F585942C01F01B00F177DA /* Frameworks */,
+				29F585952C01F01B00F177DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F585992C01F01B00F177DA /* PBXTargetDependency */,
+			);
+			name = LiveTunezTests;
+			productName = LiveTunezTests;
+			productReference = 29F585972C01F01B00F177DA /* LiveTunezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29F585A02C01F01B00F177DA /* LiveTunezUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F585B12C01F01B00F177DA /* Build configuration list for PBXNativeTarget "LiveTunezUITests" */;
+			buildPhases = (
+				29F5859D2C01F01B00F177DA /* Sources */,
+				29F5859E2C01F01B00F177DA /* Frameworks */,
+				29F5859F2C01F01B00F177DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F585A32C01F01B00F177DA /* PBXTargetDependency */,
+			);
+			name = LiveTunezUITests;
+			productName = LiveTunezUITests;
+			productReference = 29F585A12C01F01B00F177DA /* LiveTunezUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F5857F2C01F01A00F177DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					29F585862C01F01A00F177DA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					29F585962C01F01B00F177DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 29F585862C01F01A00F177DA;
+					};
+					29F585A02C01F01B00F177DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 29F585862C01F01A00F177DA;
+					};
+				};
+			};
+			buildConfigurationList = 29F585822C01F01A00F177DA /* Build configuration list for PBXProject "LiveTunez" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29F5857E2C01F01A00F177DA;
+			packageReferences = (
+				29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 29F585882C01F01A00F177DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F585862C01F01A00F177DA /* LiveTunez */,
+				29F585962C01F01B00F177DA /* LiveTunezTests */,
+				29F585A02C01F01B00F177DA /* LiveTunezUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F585852C01F01A00F177DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D11C942C87E5CF0080CA27 /* .gitignore in Resources */,
+				29F585922C01F01B00F177DA /* Preview Assets.xcassets in Resources */,
+				29F5858F2C01F01B00F177DA /* Assets.xcassets in Resources */,
+				29438B702C22FD4500DD135A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F585952C01F01B00F177DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F5859F2C01F01B00F177DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F585832C01F01A00F177DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F5858D2C01F01A00F177DA /* ContentView.swift in Sources */,
+				29F585C52C01FA4B00F177DA /* ConcertsManager.swift in Sources */,
+				29F5858B2C01F01A00F177DA /* LiveTunezApp.swift in Sources */,
+				29F585B72C01F76B00F177DA /* SavedConcerts.swift in Sources */,
+				29F585B92C01F80F00F177DA /* ConcertViewModel.swift in Sources */,
+				29F585BB2C01F83800F177DA /* SearchView.swift in Sources */,
+				29F585CA2C08FD4D00F177DA /* SpotifyManager.swift in Sources */,
+				29D11C922C87E47F0080CA27 /* Config.swift in Sources */,
+				29F585BD2C01F85200F177DA /* SetlistPage.swift in Sources */,
+				29F585B52C01F03D00F177DA /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F585932C01F01B00F177DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F5859C2C01F01B00F177DA /* LiveTunezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F5859D2C01F01B00F177DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F585A62C01F01B00F177DA /* LiveTunezUITests.swift in Sources */,
+				29F585A82C01F01B00F177DA /* LiveTunezUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29F585992C01F01B00F177DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29F585862C01F01A00F177DA /* LiveTunez */;
+			targetProxy = 29F585982C01F01B00F177DA /* PBXContainerItemProxy */;
+		};
+		29F585A32C01F01B00F177DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29F585862C01F01A00F177DA /* LiveTunez */;
+			targetProxy = 29F585A22C01F01B00F177DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29F585A92C01F01B00F177DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29F585AA2C01F01B00F177DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29F585AC2C01F01B00F177DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LiveTunez/LiveTunez.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveTunez/Preview Content\"";
+				DEVELOPMENT_TEAM = LGJ3HP9L7D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveTunez/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LiveTunez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29F585AD2C01F01B00F177DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LiveTunez/LiveTunez.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveTunez/Preview Content\"";
+				DEVELOPMENT_TEAM = LGJ3HP9L7D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveTunez/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LiveTunez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29F585AF2C01F01B00F177DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LiveTunezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveTunez.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveTunez";
+			};
+			name = Debug;
+		};
+		29F585B02C01F01B00F177DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LiveTunezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveTunez.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveTunez";
+			};
+			name = Release;
+		};
+		29F585B22C01F01B00F177DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LiveTunezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveTunez;
+			};
+			name = Debug;
+		};
+		29F585B32C01F01B00F177DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LiveTunezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveTunez;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F585822C01F01A00F177DA /* Build configuration list for PBXProject "LiveTunez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F585A92C01F01B00F177DA /* Debug */,
+				29F585AA2C01F01B00F177DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F585AB2C01F01B00F177DA /* Build configuration list for PBXNativeTarget "LiveTunez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F585AC2C01F01B00F177DA /* Debug */,
+				29F585AD2C01F01B00F177DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F585AE2C01F01B00F177DA /* Build configuration list for PBXNativeTarget "LiveTunezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F585AF2C01F01B00F177DA /* Debug */,
+				29F585B02C01F01B00F177DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F585B12C01F01B00F177DA /* Build configuration list for PBXNativeTarget "LiveTunezUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F585B22C01F01B00F177DA /* Debug */,
+				29F585B32C01F01B00F177DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29438B722C2302B400DD135A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		29438B742C2302B400DD135A /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		29438B762C2302B400DD135A /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		29438B782C2302B400DD135A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		29438B7A2C2302B400DD135A /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		29438B7C2C2302B400DD135A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		29438B7E2C2302B400DD135A /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		29438B802C2302B400DD135A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		29438B822C2302B400DD135A /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		29438B842C2302B400DD135A /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		29438B862C2302B400DD135A /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		29438B882C2302B400DD135A /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		29438B8A2C2302B400DD135A /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		29438B8C2C2302B400DD135A /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		29438B8E2C2302B400DD135A /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		29438B902C2302B400DD135A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		29438B922C2302B400DD135A /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29438B712C22FE8C00DD135A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 29F5857F2C01F01A00F177DA /* Project object */;
+}
