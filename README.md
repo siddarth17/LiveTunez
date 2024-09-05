@@ -7,4 +7,4 @@ Additionally, by utilizing Spotify Web API and SetlistFM API, users can access d
 
 Note: The code does not have the Config file attached. To successfully run the application, you should set up the API keys for Setlist.FM and Spotify
 
-![Untitled design (2)](https://github.com/siddarth17/LiveTunez/assets/111927633/17dfe99e-9168-405e-949f-2d08f99554af)
+![LiveTunez](https://github.com/user-attachments/assets/aea6bbe3-029b-44fc-b54f-324c976d6917)
